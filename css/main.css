@@ -183,3 +183,13 @@ p{
     padding-top: 10px;
     padding-bottom: 30px;
 }
+
+.loghi-social {
+    list-style-type: none;
+    color: white;
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+    padding-top: 7px;
+    font-size: 20px;
+}
