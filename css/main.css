@@ -1,9 +1,14 @@
+
+ /* regole generali */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family:  'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+/* regole header */
 
 .container-header{
     background-color: rgb(254 105 0);
@@ -22,6 +27,7 @@
     align-items: center;
     width: 80%;
 }
+ /* regole sezione uomo donna bambino */
 
 .sezione ul{
     list-style-type: none;
@@ -43,6 +49,8 @@
     text-decoration-line: underline;
 }
 
+/* regole logo header */
+
 .logo img{
     height: auto;
     width: 20%;
@@ -51,12 +59,14 @@
     margin-bottom: 10px;
 }
 
+/*regole bottoni header  */
+
 .bottoni-header i{
     color: white;
     font-size: 20px;
 }
 
-
+/* regole main  */
 
 .container-main{
     display: flex;
@@ -76,16 +86,15 @@
     padding-top:70px ;
 }
 
+/* regole card */
+
 .card{
     width: calc((100% / 3) - (40px / 3));
     position: relative;
     cursor: pointer;
 }
 
-.discount-price{
-    color: red;
-    font-weight: bold;
-}
+/* regole card per l'hover */
 
 .card-img{
     position: relative;
@@ -112,6 +121,8 @@ p{
     font-size: 14px;
 }
 
+/* regole preferiti + hover preferiti */
+
 .preferiti{
     background-color: white;
     font-size: 50px;
@@ -132,6 +143,14 @@ p{
     opacity: 1;
 }
 
+/* regole prezzo scontato */
+
+.discount-price{
+    color: red;
+    font-weight: bold;
+}
+
+/* regole per i tag di sconto e sostenibilità */
 
 .tags{
     position: absolute;
@@ -155,7 +174,7 @@ p{
     border-radius: 3px;
 }
 
-/* regole parte info del footer */
+/* regole footer */
 
 .container-footer{
     background-color: rgb(26 26 26);
@@ -174,6 +193,8 @@ p{
     padding-top: 20px;
 }
 
+/* regole parte info del footer */
+
 .info{
     list-style-type: none;
     color: white;
@@ -184,6 +205,8 @@ p{
     padding-bottom: 30px;
 }
 
+/* regole parte social del footer */
+
 .loghi-social {
     list-style-type: none;
     color: white;
@@ -192,4 +215,8 @@ p{
     font-size: 12px;
     padding-top: 7px;
     font-size: 20px;
+}
+
+a{
+    color: white;
 }
